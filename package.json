@@ -1,0 +1,30 @@
+{
+  "name": "webpackPhaserES6",
+  "version": "1.0.0",
+  "engines": {
+    "node": "7.0.0",
+    "npm": "3.10.8"
+  },
+  "description": "An awesome game boilerplate!",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js",
+    "dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pablo Darde",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.26.1",
+    "express": "^4.14.0",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0"
+  }
+}
