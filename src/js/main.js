@@ -9,9 +9,9 @@ ObjGame.Preload = require('./states/Preload');
 ObjGame.Level1 = require('./states/Level1');
 
 ObjGame.game = new Phaser.Game(
-  window.innerWidth * window.devicePixelRatio,
-  window.innerHeight * window.devicePixelRatio,
-  Phaser.AUTO,
+  800,
+  600,
+  Phaser.CANVAS,
   'app',
   null,
   false,
