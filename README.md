@@ -10,7 +10,7 @@ If you like to develop with webpack and publish in [Heroku][herokuSite], this ca
 
 This project runs a [webpack-dev-server][webpackDevServerSite] for development, and runs an express server to deploy on heroku. If you want to deploy your project on your heroku account, the only thing you need to do is type `git push heroku yourproject`. You can edit any file under the `src` directory.
 
-## Project Setup
+## Project Setup Edited
 
 1. Clone or download the project.
 2. The entry file is **/src/js/main.js**. You can overwrite this.
